@@ -1,0 +1,267 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+  }
+  body{
+      display: flex;
+      width: auto;
+      height: auto;
+      align-items: center;
+      justify-content: center;
+      background-color: #000000;
+      color: white;
+  }
+  .container{
+      width: 80%;
+      height: auto;
+  }
+/*Nav-Bar*/
+  .nav{
+      margin-top: 20px;
+      width: 100%;
+      height: auto;
+  }
+.container .nav #navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+  .nav #navbar #login{
+      float: right;
+  }
+.container .nav ul#navbar li {
+    float: left;
+  }
+.container .nav ul#navbar li a {
+    display: block;
+    font-weight: bold;
+    padding: 8px 16px;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom:2px solid crimson;
+    transition: all .5s ease;
+  }
+.container .nav ul#navbar li a:hover {
+    color: crimson;
+  }
+  .container .nav ul#navbar #logo{
+    border-bottom: none;
+    margin-right: 60px;
+    font-size: 30px;
+    color: crimson;
+  }
+  .container .nav ul#navbar #logina{
+    border-bottom: none; 
+  }
+  .container .nav ul#navbar #logina i{
+      font-size: 25px;
+      color: crimson;
+      font-weight: 500;
+      margin-right: 10px;
+  }
+
+/* Search bar */
+#searchbar{
+    width: 100%;
+    margin-top: 20px;
+}
+#searchbar input{
+    padding: 6px;
+    width:calc(99% - 59px);
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    height: 50px;
+    font-size: 25px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  #searchbar button {
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  #searchbar button:hover {
+    background: #ccc;
+  }
+/* Follow on */
+#follow-on{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: center;
+}
+#left-box,#right-box{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+#right-box{
+    flex-direction: column;
+}
+#right-box h2{
+    font-size: 20px;
+    font-weight: 500;
+    color: crimson;
+}
+#right-box #iconfollow i{
+    font-size: 25px;
+    margin-right: 10px;
+    color:orangered;
+}
+#right-box #iconfollow i:hover{
+    color: white;
+}
+#left-box img{
+    border: 2px solid orangered;
+    border-radius: 10px;
+    width:auto;
+}
+/* Grid */
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 31%; /* IE10 */
+    flex: 31%;
+    max-width: 31%;
+    padding: 0 4px;
+  }
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+/* Footer */
+footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px black;
+    background:black;
+    padding-top:10px;
+  }
+  .footer-content{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .footer-content p{
+    border-radius: 25px;
+    text-align:center;
+    color:orangered;
+    font-size:20px;
+    margin:10px;
+    position:relative;
+  }
+  .footer-content p i{
+      font-size: 20px;
+  }
+  .footer-content p::before{
+    content: '';
+    width:0;
+    height:2px;
+    display:block;
+    position:absolute;
+    left:0;
+    background: white;
+    top:-10px;
+    transition : all .3s;
+  }
+  
+  .footer-content p::after{
+   content: '';
+   width:0;
+   height:2px;
+   display:block;
+   position:absolute;
+   right:0;
+   background: white;
+   bottom:-10px;
+   transition : all .3s;
+  }
+  .footer-content p:hover::after,
+  .footer-content p:hover::before{
+    width:100%;
+  }
+  hr{
+    opacity:.2;
+  }
+/* heading */
+#trendheading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#trendheading h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+#trendheading i{
+    font-size: 25px;
+    font-weight: 500;
+    margin-right: 5px; 
+}
+#trendheading a{
+    color: crimson;
+    transition: all .5s ease;
+    text-decoration: none;
+}
+#trendheading a:hover{
+    color: white;
+}
+/*Live Scores */
+#livescores{
+    width: 100%;
+}
+#livescores #scores{
+    width: 40%;
+    background-color: gold;
+    box-shadow: 5px 5px orangered;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#livescores #scores h1{
+    font-size: 25px;
+}
+#livescores #scores h2{
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+}
+#cardscores{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
