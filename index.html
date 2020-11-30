@@ -3,37 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <title>GIFFY</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" data-auto-replace-svg="nest"></script>
 </head>
 <body>
-    <nav class="nav">
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Trending</a></li>
-            <li><a href="">Entertainment</a></li>
-            <li><a href="">Stickers</a></li>
-            <li><a href="">Contact</a></li>
+    <div class="container">
+    <div class="nav">
+        <ul id="navbar">
+            <li><a href="#" id="logo">GIFFY</a></li>
+            <li><a href="Html/Reaction.html">Reactions</a></li>
+            <li><a href="Html/Entertainment.html">Entertainments</a></li>
+            <li><a href="Html/Sports.html">Sports</a></li>
+            <li><a href="Html/Sticker.html">Stickers</a></li>
+            <li><a href="Html/Memes.html">Memes</a></li>
+            <li id="login"><a href="#" id="logina"><i class="fas fa-user-alt"></i>Login</a></li>
         </ul>
-    </nav>
-    <h1 class="sub-headings">
-        Trending
-    </h1>
-    <div class="gifs" id='gifs_id'>
-        
     </div>
-    <h1 class="sub-headings">
-        Random
-    </h1>
-    <div class="gifs" id='gifs_random'>
-        
+    <div id="searchbar">
+        <form action="">
+        <input type="search" name="" id="searchbarr" placeholder="Find Your GIF">
+        <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
     </div>
-    <h1 class="sub-headings">
-        Stickers
-    </h1>
-    <div class="gifs" id='gifs_stickers'>
-        
+    <div id="banner">
+        <img src="Images/200.webp" alt="">
     </div>
-    <script src="index.js"></script>
+    <div id="trend">
+        <div id="trendheading">
+            <h2><i class="fas fa-chart-line"></i>Trending</h2>
+            <h2>Show All <a href="#"><i class="fas fa-arrow-right"></i></a> </h2>
+        </div>
+        <div id="trendgifs">
+            <img src="Images/giphy(3).gif" alt="">
+            <img src="Images/giphy(2).gif" alt="">
+            <img src="Images/giphy(1).gif" alt="">
+            <img src="Images/36h.jpg" alt="">
+            <img src="Images/200w.gif" alt="">
+            <img src="Images/200.gif" alt="">
+        </div>
+    </div>
+    <div id="allgif">
+        <div id="trendheading">
+            <h2><i class="fas fa-tv-music"></i>All GIFFY</h2>
+            <h2>Show All <a href="#"><i class="fas fa-arrow-right"></i></a> </h2>
+        </div>
+        <!-- Grid -->
+        <div class="row"> 
+            <div class="column">
+              <img src="Images/100w(1).gif" style="width:100%">
+              <img src="Images/100w.gif" style="width:100%">
+              <img src="Images/200.gif" style="width:100%">
+              <img src="Images/giphy(2).gif" style="width:100%">
+              <img src="Images/200w.gif" style="width:100%">
+              <img src="Images/36h.jpg" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="Images/100w.gif" style="width:100%">
+              <img src="Images/200.gif" style="width:100%">
+              <img src="Images/giphy(2).gif" style="width:100%">
+              <img src="Images/200w.gif" style="width:100%">
+              <img src="Images/36h.jpg" style="width:100%">
+              <img src="Images/giphy(1).gif" style="width:100%">
+            </div>  
+            <div class="column">
+              <img src="Images/100w(1).gif" style="width:100%">
+              <img src="Images/100w.gif" style="width:100%">
+              <img src="Images/200.gif" style="width:100%">
+              <img src="Images/giphy(2).gif" style="width:100%">
+              <img src="Images/200w.gif" style="width:100%">
+              <img src="Images/36h.jpg" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="Images/100w.gif" style="width:100%">
+              <img src="Images/200.gif" style="width:100%">
+              <img src="Images/giphy(2).gif" style="width:100%">
+              <img src="Images/200w.gif" style="width:100%">
+              <img src="Images/36h.jpg" style="width:100%">
+              <img src="Images/giphy(1).gif" style="width:100%">
+            </div>
+          </div>
+    </div>
+    <footer>
+        <section class="footer-content">
+          <p>
+            CopyRight <i class="fas fa-copyright"></i> 2020 All Rights Reserved by GIFFY
+          </p>
+        </section>
+      </footer>
+    </div>
 </body>
 </html>
