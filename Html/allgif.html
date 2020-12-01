@@ -1,75 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GIFFY</title>
-    <link rel="stylesheet" href="../CSS/allgif.css">
-    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" data-auto-replace-svg="nest"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="../CSS/allgif.css" />
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"
+      data-auto-replace-svg="nest"
+    ></script>
+  </head>
+  <body>
     <div class="container">
-        <div class="nav">
-            <ul id="navbar">
-                <li><a href="../index.html" id="logo">GIFFY</a></li>
-                <li><a href="../Html/Reaction.html">Reactions</a></li>
-                <li><a href="../Html/Entertainment.html">Entertainments</a></li>
-                <li><a href="../Html/Sports.html">Sports</a></li>
-                <li><a href="../Html/Sticker.html">Stickers</a></li>
-                <li><a href="../Html/Memes.html">Memes</a></li>
-                <li id="login"><a href="#" id="logina"><i class="fas fa-user-alt"></i>Login</a></li>
-            </ul>
-        </div>
-        <div id="searchbar">
-            <form action="">
-            <input type="search" name="" id="searchbarr" placeholder="Find Your GIFs">
-            <button type="submit"><i class="fa fa-search"></i></button>
-            </form>
-        </div>
+      <div class="nav">
+        <ul id="navbar">
+          <li><a href="../index.html" id="logo">GIFFY</a></li>
+          <li><a href="../Html/Reaction.html">Reactions</a></li>
+          <li><a href="../Html/Entertainment.html">Entertainments</a></li>
+          <li><a href="../Html/Sports.html">Sports</a></li>
+          <li><a href="../Html/Sticker.html">Stickers</a></li>
+          <li><a href="../Html/Memes.html">Memes</a></li>
+          <li id="login">
+            <a href="#" id="logina"><i class="fas fa-user-alt"></i>Login</a>
+          </li>
+        </ul>
+      </div>
+      <div id="searchbar">
+        <form id="form">
+          <input
+            type="search"
+            name=""
+            id="searchbarr"
+            placeholder="Find Your GIFs"
+          />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+      <div id="search_gifs">
         <div id="trendheading">
-            <h2>@ All GIFs</h2>
+          <h2><i class="fas fa-search"></i>Related-Searches</h2>
         </div>
-        <div class="row"> 
-            <div class="column">
-              <img src="../Images/entertainment/200.webp" style="width:100%">
-              <img src="../Images/entertainment/200nw.webp" style="width:100%">
-              <img src="../Images/entertainment/200vbnmkw.webp" style="width:100%">
-              <img src="../Images/entertainment/200vgbhmw.webp" style="width:100%">
-              <img src="../Images/entertainment/200w.webp" style="width:100%">
-              <img src="../Images/entertainment/200w5677.webp" style="width:100%">
-            </div>
-            <div class="column">
-              <img src="../Images/entertainment/200.webp" style="width:100%">
-              <img src="../Images/entertainment/200nw.webp" style="width:100%">
-              <img src="../Images/entertainment/200vbnmkw.webp" style="width:100%">
-              <img src="../Images/entertainment/200vgbhmw.webp" style="width:100%">
-              <img src="../Images/entertainment/200w.webp" style="width:100%">
-              <img src="../Images/entertainment/200w5677.webp" style="width:100%">
-            </div>
-            <div class="column">
-              <img src="../Images/entertainment/20bgbm0w.webp" style="width:100%">
-              <img src="../Images/entertainment/20bhnj0w.webp" style="width:100%">
-              <img src="../Images/entertainment/20bhnjm0w.webp" style="width:100%">
-              <img src="../Images/entertainment/20vgbhnj0w.webp" style="width:100%">
-              <img src="../Images/entertainment/2bhnj00w.webp" style="width:100%">
-              <img src="../Images/entertainment/2vbn00.webp" style="width:100%">
-            </div>  
-            <div class="column">
-                <img src="../Images/entertainment/20vgbhnj0w.webp" style="width:100%">
-              <img src="../Images/entertainment/2bhnj00w.webp" style="width:100%">
-              <img src="../Images/entertainment/2vbn00.webp" style="width:100%">
-              <img src="../Images/entertainment/200.webp" style="width:100%">
-              <img src="../Images/entertainment/200nw.webp" style="width:100%">
-              <img src="../Images/entertainment/200vbnmkw.webp" style="width:100%">
-            </div>
+        <!-- Grid -->
+        <div class="row">
+          <div class="gifs" id="gifs_searched">
+              
           </div>
-          <footer>
-            <section class="footer-content">
-              <p>
-                CopyRight <i class="fas fa-copyright"></i> 2020 All Rights Reserved by GIFFY
-              </p>
-            </section>
-          </footer>
+        </div>
+      </div>
+      <div id="trendheading">
+        <h2>@ All GIFs</h2>
+      </div>
+      <div class="row">
+        <div class="gifs" id="gifs"></div>
+      </div>
+      <footer>
+        <section class="footer-content">
+          <p>
+            CopyRight <i class="fas fa-copyright"></i> 2020 All Rights Reserved
+            by GIFFY
+          </p>
+        </section>
+      </footer>
     </div>
-</body>
+  </body>
+  <script src="../JS/allgif.js"></script>
 </html>

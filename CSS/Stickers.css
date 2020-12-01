@@ -158,6 +158,9 @@
     vertical-align: middle;
     width: 100%;
   }
+  #search_gifs{
+    visibility: hidden;
+  }
   .gifs{
     display: grid;
     grid-template-columns:1fr 1fr 1fr;
