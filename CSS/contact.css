@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Texturina', serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #161623;
+    min-height: 100vh;
+    background: linear-gradient(#f00,#f0f);
+}
+section{
+    background: #161623;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 15px;
+}
+.container{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 40px 0;
+    margin-top: 0;
+}
+.container .card{
+    position:relative;
+    width: 300px;
+    height: 400px;
+    background: rgba(255,255,255,0.05);
+    margin: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0,0.02);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+}
+.container .card .content{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0.8;
+    transition: 0.5%;
+}
+.container .card:hover .content{
+    opacity: 1;
+    transform: translateY(-20px);
+}
+.container .card .content .imgbox{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 10px solid rgba(0, 0, 0, 0.25);
+}
+.container .card .content .imgbox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container .card .content .contentbox h3{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0 10px;
+    line-height: 1.1em;
+}
+.container .card .content .contentbox h3 span{
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: initial;
+}
+.container .card .sci{
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+}
+.container .card .sci li{
+    list-style: none;
+    margin:0 10px;
+    transform: translateY(40px);
+    transition: 0.5s;
+    opacity: 0;
+    transition-delay: calc(0.1s * var(--i)); 
+}
+.container .card:hover .sci li{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.container .card .sci li a{
+    color: #fff;
+    font-size: 24px;
+}
+section h2{
+    text-align: center;
+}
+section h2 a{
+    text-decoration: none;
+    text-align: center;
+    color: crimson;
+    font-size: 40px;
+    transition: all 1s ease;
+}
+section h2 a:hover{
+    transition: all 1s ease-in;
+    color: white;
+}
+/* Footer */
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-content p{
+    border-radius: 25px;
+    text-align:center;
+    color:crimson;
+    font-size:20px;
+    margin:10px;
+    position:relative;
+  }
+  .footer-content p i{
+      font-size: 20px;
+  }
+  .footer-content p::before{
+    content: '';
+    width:0;
+    height:2px;
+    display:block;
+    position:absolute;
+    left:0;
+    background: white;
+    top:-10px;
+    transition : all .3s;
+  }
+  
+  .footer-content p::after{
+   content: '';
+   width:0;
+   height:2px;
+   display:block;
+   position:absolute;
+   right:0;
+   background: white;
+   bottom:-10px;
+   transition : all .3s;
+  }
+  .footer-content p:hover::after,
+  .footer-content p:hover::before{
+    width:100%;
+  }
+  hr{
+    opacity:.2;
+  }
