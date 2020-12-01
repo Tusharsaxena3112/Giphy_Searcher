@@ -22,7 +22,6 @@ section{
 }
 .container{
     position: relative;
-    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,7 +40,6 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    backdrop-filter: blur(10px);
 }
 .container .card .content{
     position: relative;
@@ -49,12 +47,12 @@ section{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    opacity: 0.8;
+    opacity: 0.6;
     transition: 0.5%;
+    transform: translateY(-20px);
 }
 .container .card:hover .content{
     opacity: 1;
-    transform: translateY(-20px);
 }
 .container .card .content .imgbox{
     position: relative;
@@ -70,7 +68,6 @@ section{
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
 }
 .container .card .content .contentbox h3{
     color: #fff;
@@ -95,13 +92,10 @@ section{
 .container .card .sci li{
     list-style: none;
     margin:0 10px;
-    transform: translateY(40px);
     transition: 0.5s;
-    opacity: 0;
-    transition-delay: calc(0.1s * var(--i)); 
+    opacity: 0.6; 
 }
 .container .card:hover .sci li{
-    transform: translateY(0px);
     opacity: 1;
 }
 .container .card .sci li a{
