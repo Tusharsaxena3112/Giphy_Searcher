@@ -120,6 +120,20 @@
     vertical-align: middle;
     width: 100%;
   }
+
+  .gifs{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+  }
+  .gif{
+    height: 35vh;
+    margin: 10px;
+  }
+  .gif img{
+    width: 100%;
+    margin:5px;
+    height: 100%;
+  }
 /* Footer */
 footer{
     margin-top: 20px;
