@@ -136,28 +136,6 @@
     border-radius: 10px;
     width:auto;
 }
-/* Grid */
-.row {
-    display: -ms-flexbox; /* IE10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
-    flex-wrap: wrap;
-    padding: 0 4px;
-  }
-  
-  /* Create four equal columns that sits next to each other */
-.column {
-    -ms-flex: 31%; /* IE10 */
-    flex: 31%;
-    max-width: 31%;
-    padding: 0 4px;
-  }
-  
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-  }
 /* Footer */
 footer{
     margin-top: 20px;
@@ -237,3 +215,15 @@ footer{
 #trendheading a:hover{
     color: white;
 }
+/* Grid */
+.gifsbox img{
+  width:275px;
+  height:260px;
+  margin:10px;
+  }
+.gifsbox{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  width: 100%;
+  }
