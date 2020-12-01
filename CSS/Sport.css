@@ -138,7 +138,7 @@ body {
   width: auto;
 }
 /* Grid */
-<<<<<<< HEAD
+
 .row {
   display: -ms-flexbox; /* IE10 */
   display: flex;
@@ -173,7 +173,7 @@ body {
   margin: 5px;
   height: 100%;
 }
-=======
+
 .gifsbox img{
   width:275px;
   height:260px;
@@ -185,7 +185,7 @@ body {
   justify-content:center;
   width: 100%;
   }
->>>>>>> 4fb05ea46768ae1b6d20d43d377c0c1bf7d411d5
+
 /* Footer */
 footer {
   margin-top: 20px;
