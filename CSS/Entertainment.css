@@ -137,6 +137,7 @@ body {
   border-radius: 10px;
   width: auto;
 }
+<<<<<<< HEAD
 /* Grid */
 .row {
   display: -ms-flexbox; /* IE10 */
@@ -172,6 +173,8 @@ body {
   margin: 5px;
   height: 100%;
 }
+=======
+>>>>>>> 4fb05ea46768ae1b6d20d43d377c0c1bf7d411d5
 /* Footer */
 footer {
   margin-top: 20px;
@@ -227,6 +230,7 @@ hr {
   opacity: 0.2;
 }
 /* heading */
+<<<<<<< HEAD
 #trendheading {
   width: 100%;
   display: flex;
@@ -250,3 +254,40 @@ hr {
 #trendheading a:hover {
   color: white;
 }
+=======
+#trendheading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#trendheading h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+#trendheading i{
+    font-size: 25px;
+    font-weight: 500;
+    margin-right: 5px; 
+}
+#trendheading a{
+    color: crimson;
+    transition: all .5s ease;
+    text-decoration: none;
+}
+#trendheading a:hover{
+    color: white;
+}
+/* Grid */
+.gifsbox img{
+  width:275px;
+  height:260px;
+  margin:10px;
+  }
+.gifsbox{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  width: 100%;
+  }
+>>>>>>> 4fb05ea46768ae1b6d20d43d377c0c1bf7d411d5
