@@ -187,3 +187,24 @@ footer{
 #section3 h5 a{
     text-decoration: none;
 }
+@media(max-width:400px){
+    #form1{
+        width:320px;
+        height: 400px;
+        background-color: white;
+        box-shadow: 5px 5px 5px darkslategray;
+    }
+}
+@media(max-width:340px){
+    #form1{
+        height: auto;
+    }
+    #section3{
+        margin-top: 0;
+        flex-direction: column;
+    }
+    #LOGIN{
+        width: 150px;
+        margin-bottom: 10px;
+    }
+}

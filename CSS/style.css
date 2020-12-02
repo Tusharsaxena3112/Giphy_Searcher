@@ -142,6 +142,18 @@
     justify-content: center;
     display: flex;
 }
+#trend #trendgifs #box1{
+  align-items: center;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+}
+#trend #trendgifs #box2{
+  align-items: center;
+    justify-content: center;
+    display: flex;   
+    overflow: hidden;
+}
 #trend #trendgifs img{
     width: 200px;
     height: 200px;
@@ -312,4 +324,86 @@ footer{
   }
   hr{
     opacity:.2;
+  }
+  /*Grid*/
+  @media(max-width:1110px){
+    .gifs{
+      grid-template-columns:1fr 1fr 1fr;
+    }
+  }
+  @media(max-width:880px){
+    .gifs{
+      grid-template-columns:1fr 1fr;
+    }
+  }
+  @media(max-width:620px){
+    .gifs{
+      grid-template-columns:1fr;
+    }
+  }
+  /*Search bar*/
+  @media(max-width:900px){
+    #searchbar{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #searchbar input{
+      width:500px;
+    }
+    #searchbar button{
+    }
+  }
+  @media(max-width:726px){
+    #searchbar input{
+      width:350px;
+    }
+  }
+  @media(max-width:600px){
+    #searchbar button{
+      display:none;
+    }
+    #searchbar input{
+      width: 100%;
+    }
+  }
+  /*heading*/
+  @media(max-width:450px){
+  #trendheading h2{
+    font-size: 20px;
+  }
+  #trendheading h2 i{
+    font-size: 20px;
+  }
+  }
+  @media(max-width:370px){
+    #trendheading h2{
+      font-size: 15px;
+    }
+    #trendheading h2 i{
+      font-size: 15px;
+    }
+    }
+/*gifs trending*/
+  @media(max-width:950px){
+    #trendgifs{
+      flex-direction: column;
+    }
+    #trendgifs #box1{
+      margin-bottom: 5px;
+    }
+  }
+  @media(max-width:650px){
+    #trendgifs #box2{
+      display: none;
+    }
+    #trendgifs #box2 img{
+      display: none;
+    }
+    #trendgifs #box1{
+      flex-direction: column;
+    }
+    #trendgifs #box1 img{
+      margin-bottom: 5px;
+    }
   }

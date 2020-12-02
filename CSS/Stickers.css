@@ -264,3 +264,66 @@ footer{
 #trendheading a:hover{
     color: white;
 }
+  /*Grid*/
+  @media(max-width:1110px){
+    .gifs{
+      grid-template-columns:1fr 1fr 1fr;
+    }
+  }
+  @media(max-width:880px){
+    .gifs{
+      grid-template-columns:1fr 1fr;
+    }
+  }
+  @media(max-width:620px){
+    .gifs{
+      grid-template-columns:1fr;
+    }
+  }
+  /*Search bar*/
+  @media(max-width:900px){
+    #searchbar{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #searchbar input{
+      width:500px;
+    }
+    #searchbar button{
+    }
+  }
+  @media(max-width:726px){
+    #searchbar input{
+      width:350px;
+    }
+  }
+  @media(max-width:600px){
+    #searchbar button{
+      display:none;
+    }
+    #searchbar input{
+      width: 100%;
+    }
+  }
+  /*Follow on*/
+  @media(max-width:865px){
+    #right-box h2{
+      text-align: center;
+    }
+  }
+  @media(max-width:640px){
+    #right-box,#left-box{
+      width: 100%;
+      height: auto;
+    }
+    #follow-on{
+      flex-direction: column;
+    }
+  }
+  /*heading*/
+  @media(max-width:400px){
+  #trendheading h2{
+    font-size: 20px;
+  }
+  }

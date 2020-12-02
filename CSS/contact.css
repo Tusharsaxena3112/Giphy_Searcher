@@ -121,6 +121,7 @@ section h2 a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
   }
   .footer-content p{
     border-radius: 25px;
