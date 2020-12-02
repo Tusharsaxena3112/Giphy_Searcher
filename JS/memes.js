@@ -30,3 +30,4 @@ function add_search(data) {
     search_gifs.style.visibility = "visible";
   }
 }
+

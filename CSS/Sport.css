@@ -186,6 +186,9 @@ body {
   width: 100%;
   }
 
+  #search_gifs{
+    visibility: hidden;
+  }
 /* Footer */
 footer {
   margin-top: 20px;
