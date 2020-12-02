@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    height: auto;
+    text-align: center;
+    color:crimson;
+    font-size: 25px;
+    border-bottom:2px solid crimson;
+    transition: all .5s ease;
+    background-color: black;
+   
+    
+}
+h1 a{
+    color: crimson;
+    text-decoration: none;
+}
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    height:100vh;
+    background-color: black;
+    
+}
+.box{
+    background-color: black;
+   height: 60vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px black;
+    background:black;
+    padding-top:10px;
+  }
+  .footer-content{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .footer-content p{
+    border-radius: 25px;
+    text-align:center;
+    color:orangered;
+    font-size:20px;
+    margin:10px;
+    position:relative;
+  }
+  .footer-content p i{
+      font-size: 20px;
+  }
+  .footer-content p::before{
+    content: '';
+    width:0;
+    height:2px;
+    display:block;
+    position:absolute;
+    left:0;
+    background: white;
+    top:-10px;
+    transition : all .3s;
+  }
+  
+  .footer-content p::after{
+   content: '';
+   width:0;
+   height:2px;
+   display:block;
+   position:absolute;
+   right:0;
+   background: white;
+   bottom:-10px;
+   transition : all .3s;
+  }
+  .footer-content p:hover::after,
+  .footer-content p:hover::before{
+    width:100%;
+  }
+#follow-on{
+    
+    color:greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+    font-size: 18px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#iconfollow i {
+    font-size: 25px;
+    margin-left: 10px;
+    color: greenyellow;
+  }
+#iconfollow i:hover {
+    color: white;
+  }
+/*Login form*/
+  #ddd{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#form1{
+    width:350px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 5px 5px 5px darkslategray;
+}
+#section1{
+    color: white;
+    text-align: center;
+    width: 100%;
+    height:auto;
+    background: linear-gradient(to left,darkmagenta,blue);
+}
+#section1 h2{
+    padding: 20px;
+}
+#section1icon{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+#section1icon a{
+    color: white;
+}
+#section2{
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    color: silver;
+}
+#section2 form input{
+    border: 0;
+    width: 100%;
+    font-size: 20px;
+    border-bottom: 2px solid silver;
+}
+#section2 form a{
+    float: right;
+    text-decoration: none;
+    padding-top: 10px;
+    color: black;
+}
+#section3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    color: silver;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+}
+#LOGIN{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: darkslategray;
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#section3 h5 a{
+    text-decoration: none;
+}
