@@ -295,7 +295,7 @@ hr {
 #cardscores {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content:space-evenly;
 }
   /*Grid*/
   @media(max-width:1110px){
@@ -444,4 +444,16 @@ hr {
   margin-right: 0;
   padding-right: 0;
 }
+}
+/* live scores*/
+@media(max-width:750px){
+  #livescores #cardscores{
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  #livescores #scores{
+    width: 90%;
+    margin-bottom: 20px;
+  }
 }
