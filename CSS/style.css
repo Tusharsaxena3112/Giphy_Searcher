@@ -16,6 +16,9 @@
       height: auto;
   }
 /*Nav-Bar*/
+.wrapper{
+  display: none;
+}
   .nav{
       margin-top: 20px;
       width: 100%;
@@ -407,3 +410,88 @@ footer{
       margin-bottom: 5px;
     }
   }
+  /*Dropdown nav*/
+@media(max-width:1185px){
+  .nav{
+    display: none;
+  }
+.wrapper{
+  display: block;
+  padding-top: 20px;
+  width: 100%;
+  margin:0 auto;
+  color: white;
+}
+.logo2{
+  float: left;
+}
+.logo2 h2 a{
+  color: crimson;
+  text-decoration: none;
+  font-size: 30px;
+}
+.menubutn{
+  color: crimson;
+  padding: 15px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.rightmenu{
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+.dropdown{
+  display:none;
+  position: absolute;
+  right: 10px;
+  background-color: crimson;
+  color: white;
+  min-width: 158px;
+  z-index: 1;
+}
+.dropdown a:hover{
+  border-bottom: 2px solid white;
+}
+.rightmenu:hover .dropdown{
+  display: block;
+}
+.menubutn{
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+}
+.menubutn i{
+  color: crimson;
+  font-size: 25px;
+}
+.menubutn a{
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+.menubutn a i{
+  margin-right: 10px;
+}
+.dropdown div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  flex-direction: column;
+  margin: 5px;
+}
+.dropdown div a{
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+}
+.fa-ellipsis-v{
+  margin-right: 0;
+  padding-right: 0;
+}
+}
