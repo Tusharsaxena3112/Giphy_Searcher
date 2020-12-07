@@ -21,4 +21,5 @@ The purpose of this GIFFY is that it provides most of the basic functionality to
 
 ### APIs Used:
 api.giphy.com/v1/gifs/search
+<br>
 api.giphy.com/v1/stickers/search
