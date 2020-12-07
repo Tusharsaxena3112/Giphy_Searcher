@@ -20,6 +20,6 @@ A GIF (Graphical Interchange Format) is an image format invented in 1987 by Stev
 The purpose of this GIFFY is that it provides most of the basic functionality to find a GIF. It allows the person or user can find the animated GIFs or stickers or memes and can use it. Once the user search foe a GIF or Stickers or Memes then the system show the related gifs of the searches.
 
 ### APIs Used:
-api.giphy.com/v1/gifs/search
+https://api.giphy.com/v1/gifs/search
 <br>
-api.giphy.com/v1/stickers/search
+https://api.giphy.com/v1/stickers/search
